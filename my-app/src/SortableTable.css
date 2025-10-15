@@ -1,0 +1,29 @@
+.sortable-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.sortable-table th,
+.sortable-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sortable-table th {
+    background-color: #f4f4f4;
+}
+
+.sortable-table tr.even {
+    background-color: #fafafa;
+}
+
+.sortable-table tr.odd {
+    background-color: #e9f5ff;
+}
+
+.sortable-table th:hover {
+    background-color: #ddd;
+}
